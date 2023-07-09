@@ -1,20 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(54, 33, 49);
+    background-color: rgb(39, 19, 5);
     line-height: 1.5;
 }
 
 h1 {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /* HOME PAGE */
-.bgindex {
+.indexbg {
     background-image: url(../img/bg-main.jpg);
     background-size: cover;
 
+    padding-bottom: 400px;
     min-width: 100%;
     min-height: 100%;
 }
@@ -23,11 +24,24 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 400px;
+    padding-left: 300px;
 }
 
+.menu {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.menutable {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+}
+
+
 /* MAIN RECIPES */
-.bgmain {
+.mainbg {
     background-image: url(../img/bg-recipe.jpg);
     background-size: cover;
 
@@ -35,23 +49,27 @@ h1 {
     min-height: 100%;
 }
 
-.mrecipe {
+.mainr {
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 700px;
     padding-top: 50px;
     padding-left: 40px;
     background-color: rgba(255, 228, 196, 0.60);
 }
 
+
 /* DESSERT RECIPES */
-.bgdessert {
+.dessertbg {
     background-image: url(../img/bg-dessert.jpg);
     background-size: cover;
+    background-position: right;
 
     min-width: 100%;
     min-height: 100%;
 }
 
-.drecipe {
+.dessertr {
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 50px;
     padding-left: 40px;
     margin-right: 700px;
