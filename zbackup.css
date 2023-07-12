@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 19, 5);
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HOME PAGE */
+.indexbg {
+    background-image: url(../img/bg-main.jpg);
+    background-size: cover;
+
+    padding-bottom: 400px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.rheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    margin: auto;
+}
+
+.boxes {
+    width: 60%;
+    padding-left: 750px;
+}
+
+.leftbox {
+    float: left;
+    background-color: rgba(255, 228, 196, 0.60);
+    width: 20%;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+}
+
+.middlebox {
+    float: left;
+    background-color: rgba(255, 228, 196, 0.60);
+    width: 20%;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+}
+
+.rightbox {
+    float: left;
+    background-color: rgba(255, 228, 196, 0.60);
+    width: 20%;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+}
+
+
+
+/* MAIN RECIPES */
+.mainbg {
+    background-image: url(../img/bg-recipe.jpg);
+    background-size: cover;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mainr {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+    padding-top: 50px;
+    padding-left: 40px;
+    background-color: rgba(255, 228, 196, 0.60);
+}
+
+
+/* DESSERT RECIPES */
+.dessertbg {
+    background-image: url(../img/bg-dessert.jpg);
+    background-size: cover;
+    background-position: right;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.dessertr {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-right: 700px;
+    background-color: rgba(255, 228, 196, 0.60);
+}
